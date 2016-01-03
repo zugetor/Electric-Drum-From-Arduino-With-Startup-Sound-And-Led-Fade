@@ -72,7 +72,7 @@ if(analogRead(analogpin0)>threshold)
 {
 Serial.println("A0");
 Keyboard.press('w');
-delay(100);
+delay(10);
 Keyboard.releaseAll();
 
   SoftPWMSetPercent(3, 100);
@@ -91,7 +91,7 @@ if (analogRead(analogpin1)>threshold)
 {
 Serial.println("A1");
   Keyboard.press('a');
-    delay(100);
+    delay(10);
   Keyboard.releaseAll();
   
   SoftPWMSetPercent(5, 100);
@@ -110,7 +110,7 @@ if (analogRead(analogpin2)>threshold)
 {
 Serial.println("A2"); 
   Keyboard.press('s');
-  delay(100);
+  delay(10);
   Keyboard.releaseAll();
   
   SoftPWMSetPercent(6, 100);
@@ -129,7 +129,7 @@ if (analogRead(analogpin3)>threshold)
 {
 Serial.println("A3"); 
   Keyboard.press('d');
-  delay(100);
+  delay(10);
   Keyboard.releaseAll();
   
   SoftPWMSetPercent(9, 100);
@@ -148,7 +148,7 @@ if (analogRead(analogpin4)>threshold)
 {
 Serial.println("A4"); 
   Keyboard.press('q');
-  delay(100);
+  delay(10);
   Keyboard.releaseAll();
   
   SoftPWMSetPercent(10, 100);
@@ -167,7 +167,7 @@ if (analogRead(analogpin5)>threshold)
 {
 Serial.println("A5"); 
   Keyboard.press('e');
-  delay(100);
+  delay(10);
   Keyboard.releaseAll();
   
   SoftPWMSetPercent(11, 100);
